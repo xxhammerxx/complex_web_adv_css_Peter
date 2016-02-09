@@ -509,8 +509,9 @@ p.after a {
   display: flex;
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
+  flex-wrap:wrap;
   width: 798px;
-  height: 700px;
+ 
   background-color: transparent;
   margin-top:-30px;
 }
@@ -586,8 +587,7 @@ form,button {
 }
 /* ----------- Stylized Form----------- */
 #stylized {
-  float: left;
-  margin-left: -20px;
+
 }
 #stylized h1 {
   font-size: 14px;
@@ -604,29 +604,29 @@ form,button {
 #stylized label {
   display: block;
   font-weight: 700;
-  text-align: right;
   width: 140px;
-  float: left;
 }
 #stylized .small {
   color: #666;
   display: block;
   font-size: 11px;
   font-weight: 400;
-  text-align: right;
   width: 140px;
 }
 #stylized input {
-  float: left;
   font-size: 12px;
   padding: 4px 2px;
   border: solid 1px #aacfe6;
-  width: 200px;
-  margin: 2px 0 20px 10px;
+  width: 90%;
+  margin: 2px 0 10px 0px;
 }
+
+.textareainput{
+width:90%;
+}
+
 #stylized button {
   clear: both;
-  margin-left: 160px;
   width: 125px;
   height: 31px;
   background: #CD3700;

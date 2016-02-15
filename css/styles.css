@@ -79,10 +79,8 @@ a img {
 
 /* Navigational Bar */
 #navbar {
-  background-color: #ff0;
   width: 100%;
   position: relative;
-  margin-top: 160px;
   height: 30px;
   font-size: 12px;
 }
